@@ -16,13 +16,16 @@
             android:id="@+id/agregarBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#4CAF50"
-            android:text="Agregar" />
+            android:backgroundTint="@color/NICE"
+            android:text="@string/agregar_cliente"
+            android:textColor="@color/white" />
 
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" >
+
+        </ListView>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

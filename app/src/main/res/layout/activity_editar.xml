@@ -22,9 +22,11 @@
 
             <ImageView
                 android:id="@+id/foto"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:contentDescription="@string/imagen_de_perfil"
+                tools:ignore="ImageContrastCheck"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
 
@@ -33,52 +35,58 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Nombre del cliente"
+            android:hint="@string/nombre_del_cliente"
             android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A" />
 
         <EditText
             android:id="@+id/direccion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Dirección"
+            android:hint="@string/direcci_n"
             android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            android:textColorLink="#546E7A" />
 
         <EditText
             android:id="@+id/telefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Teléfono"
+            android:hint="@string/tel_fono"
             android:inputType="phone"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A" />
 
         <EditText
             android:id="@+id/correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Correo"
+            android:hint="@string/correo"
             android:inputType="textEmailAddress"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A" />
 
         <EditText
             android:id="@+id/url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Url de la foto"
+            android:hint="@string/url_de_la_foto"
             android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A" />
 
         <Button
             android:id="@+id/editarBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#4CAF50"
-            android:text="Modificar"
+            android:text="@string/modificar"
             android:textColor="@color/white" />
 
         <Button
@@ -86,7 +94,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@android:color/holo_red_dark"
-            android:text="Eliminar"
+            android:text="@string/eliminar"
             android:textColor="@color/white" />
 
     </LinearLayout>

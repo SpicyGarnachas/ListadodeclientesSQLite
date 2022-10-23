@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Project</string>
+    <string name="agregar_cliente">Add new client</string>
+    <string name="url_de_la_foto">Photo URL</string>
+    <string name="modificar">Edit</string>
+    <string name="eliminar">Delete</string>
+    <string name="imagen_de_perfil">"Photo "</string>
+    <string name="nombre_del_cliente">Client Name</string>
+    <string name="direcci_n">Adress</string>
+    <string name="tel_fono">Phone number</string>
+    <string name="nombre_del_cliente_ag">Client Name</string>
+    <string name="direcci_n_ag">Adress</string>
+    <string name="tel_fono_ag">Phone number</string>
+    <string name="correo_ag">E-mail</string>
+    <string name="correo">E-mail</string>
+    <string name="agregar_ag">Add</string>
+    <string name="url_de_la_foto_ag">Photo URL</string>
+</resources>

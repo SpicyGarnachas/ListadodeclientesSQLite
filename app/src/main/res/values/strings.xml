@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Proyecto</string>
+    <string name="agregar_cliente">Agregar Cliente</string>
+    <string name="app_name">Proyect</string>
+    <string name="url_de_la_foto">Url de la foto</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="imagen_de_perfil">Imagen de perfil</string>
+    <string name="nombre_del_cliente">Nombre del cliente</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="nombre_del_cliente_ag">Nombre del cliente</string>
+    <string name="direcci_n_ag">Dirección</string>
+    <string name="tel_fono_ag">Teléfono</string>
+    <string name="correo_ag">Correo</string>
+    <string name="url_de_la_foto_ag">Url de la foto</string>
+    <string name="agregar_ag">Agregar</string>
+    <string name="correo">Correo</string>
 </resources>
